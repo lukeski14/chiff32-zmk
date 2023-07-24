@@ -71,7 +71,7 @@
 //              |   MO(3)  |  BSPC  |           |LT(SPACE)| MO(2) |
 			bindings = <
 	&kp Q &kp W &kp E &kp R &kp T                         &kp C_MUTE      &kp Y &kp U  &kp I     &kp O   &kp P    
-	&mt LGUI A &mt LALT S &st LSFT D &mt LCTRL F &kp G                    &kp H &mt RCTRL J  &st RSFT K  &mt RALT L &mt RGUI QUOT
+	&mt LGUI A &mt LALT S &st LSHFT D &mt LCTRL F &kp G                   &kp H &mt RCTRL J  &st RSHFT K  &mt RALT L &mt RGUI QUOT
 	&kp Z &kp X &kp C &kp V &kp B                                         &kp N &kp M  &kp COMMA &kp DOT &kp FSLH 
 	                 &mo THREE &kp BSPC                                   &lt ONE SPACE  &mo TWO
 			>;
