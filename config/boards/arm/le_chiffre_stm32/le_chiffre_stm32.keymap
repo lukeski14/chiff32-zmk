@@ -32,7 +32,7 @@
 / {
 
 	chosen {
-		zmk,matrix-transform: &transform_with_encoder;
+		zmk,matrix_transform: &transform_with_encoder;
 	};
 	
     behaviors {
