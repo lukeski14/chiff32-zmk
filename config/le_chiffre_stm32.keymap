@@ -48,6 +48,15 @@
 			global-quick-tap;
 		};
 	};
+	
+	combos {
+        compatible = "zmk,combos";
+        combo_capsword {
+            timeout-ms = <60>;
+            key-positions = <14 19>;
+            bindings = <&caps_word>;
+        };
+    };
 
 
 	keymap {
