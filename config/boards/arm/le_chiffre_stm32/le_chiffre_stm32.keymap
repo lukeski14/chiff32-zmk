@@ -30,6 +30,11 @@
 };
 
 / {
+
+	chosen {
+		zmk,matrix_transform: &transform_with_encoder;
+	};
+	
     behaviors {
 		st: shift_tap {
 			compatible = "zmk,behavior-hold-tap";
